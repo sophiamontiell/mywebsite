@@ -1,0 +1,93 @@
+s/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.highlights {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.category {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.category p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.category a {
+    color: #333;
+    text-decoration: none;
+}
+
+.category a:hover {
+    color: #0088cc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
